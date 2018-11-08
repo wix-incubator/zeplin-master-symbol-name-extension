@@ -1,0 +1,35 @@
+{
+  "name": "zeplin-master-symbol-name-extension",
+  "version": "0.1.0",
+  "description": "Display the master symbol name of a Zeplin layer",
+  "scripts": {
+    "start": "zem start",
+    "build": "zem build",
+    "clean": "zem clean",
+    "exec": "zem exec",
+    "publish": "zem publish"
+  },
+  "zeplin": {
+    "displayName": "Master Symbol Name",
+    "projectTypes": [
+      "web"
+    ],
+    "options": [
+      {
+        "name": "Show Component Name",
+        "type": "switch",
+        "id": "showComponentName",
+        "default": true
+      },
+      {
+        "name": "Show Primitive Name",
+        "type": "switch",
+        "id": "showPrimitiveName",
+        "default": false
+      }
+    ]
+  },
+  "dependencies": {
+    "zem": "^0.3.3"
+  }
+}

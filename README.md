@@ -2,6 +2,9 @@
 
 Display the original Master Symbol names of components from UI libs.
 
+Example:
+![example screenshot](https://github.com/wix-incubator/zeplin-master-symbol-name-extension/blob/master/readme-example.png)
+
 Sample output:
 ```js
 Component:

@@ -12,7 +12,10 @@
   "zeplin": {
     "displayName": "Master Symbol Name",
     "projectTypes": [
-      "web"
+      "web",
+      "android",
+      "ios",
+      "osx"
     ],
     "options": [
       {

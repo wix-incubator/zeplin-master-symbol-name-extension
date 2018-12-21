@@ -1,6 +1,6 @@
 {
   "name": "zeplin-master-symbol-name-extension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Display the master symbol name of a Zeplin layer",
   "scripts": {
     "start": "zem start",
